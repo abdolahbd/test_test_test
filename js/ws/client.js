@@ -4,7 +4,7 @@
  * 
  * @extends EventEmitter
  */
-import { EventEmitter } from 'https://cdn.skypack.dev/eventemitter3';
+import { EventEmitter } from '../utils/event-emitter.js';
 import { blobToJSON, base64ToArrayBuffer } from '../utils/utils.js';
 
 export class GeminiWebsocketClient extends EventEmitter {
